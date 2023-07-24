@@ -4,5 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+#### Mình là Phan Hoàng Phước, hiện là sinh viên ngành khoa học máy tính UIT. Đây là một blog tạo ra để phục vụ sở thích viết lách của mình. Mong là bạn sẽ thích nó <3.
