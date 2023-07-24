@@ -31,7 +31,7 @@ int dfs(int u, int pa, int x) {
 ### Kỹ thuật Small-to-Large Merging
 Xét đồ thị như sau:
 
-![expnode](https://github.com/HPhuoc0906/HPhuoc0906.github.io/assets/120120929/074ef25f-6ad8-46ff-acc2-a57e734b7090)
+![expnode](https://github.com/hphuoc0906/hphuoc0906.github.io/assets/120120929/38dcb2e7-ef7b-4f67-a165-a57c98105854)
 
 Ta nhận thấy rằng nếu chỉ gộp theo cách thông thường thì trong trường hợp tệ nhất 1 nút tối đa có thể bị gộp 7 lần. Nhưng nếu mỗi lần xét 2 thành phần, ta chỉ gộp thành phần nào không lớn hơn thành phần còn lại thì khi đó một nút chỉ gộp tối đa là 3 lần. Xét trường hợp tổng quát hơn: 
 - Ta có 2 thành phần có kích thước lần lượt là $x$ và $y$ (giả sử $1 \le x \le y \le n$). Nếu ta gộp thành phần $x$ vào $y$ thì số nút cần gộp là $x$ nút. Ta có $x + y \ge 2 \times x$ kích thước của thành phần mới sau mỗi lần gộp vào. Mà tối đa ta chỉ có $n$ nút nên tổng số lần di chuyển 1 nút vào 1 tập hợp khác tối đa là $log(n)$.
