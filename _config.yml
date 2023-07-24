@@ -94,9 +94,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: hphuoc0906/hphuoc0906.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOJ9lZTQ
+    repo_id: R_kgDOJ_OoAw
     category: General
-    category_id: DIC_kwDOJ9lZTc4CYEms
+    category_id: DIC_kwDOJ_OoA84CYGed
     mapping: title # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: vi # optional, default to the value of `site.lang`
