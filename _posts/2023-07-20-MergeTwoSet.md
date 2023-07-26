@@ -46,6 +46,7 @@ void mergeTwoSet(int id1, int id2) {
         sto[id1].push_back(val);
 }
 ```
+
 Bài tập mẫu:
 - [CSES - Distinct Colors](https://cses.fi/problemset/task/1139/)
 
