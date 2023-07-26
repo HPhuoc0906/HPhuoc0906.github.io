@@ -14,7 +14,7 @@ Một kỹ thuật hiệu quả trong việc xử lý các bài toán nối 2 t�
 ## Bài toán
 Cho bài toán như sau:
 
-> ***Cho một cây có $n$ nút và $q$ truy vấn. Mỗi truy vấn hãy cho biết có bao nhiêu nút con trong cây con gốc $u$ có giá trị là $x$.***
+***Cho một cây có $n$ nút và $q$ truy vấn. Mỗi truy vấn hãy cho biết có bao nhiêu nút con trong cây con gốc $u$ có giá trị là $x$.***
 
 ## Thuật toán
 ### Thuật toán O($nq$)
